@@ -31,32 +31,32 @@ Instructions
 - [x] translate five previous exercises into modular functions
 ```
 def inputNum():
-    global n
-    n=int(input("Enter your number:"))
+    num=int(input("Enter your number:"))
+    return num
 
-def printNum():
-        print("Your number is:", n)
+def printNum(num):
+    print("Your number is:", num)
 
-inputNum()
-printNum()
+num=inputNum()
+printNum(num)
 
 def inputArr():
-    global array
     array=[]
     n=int(input("Please write the number of elements you want for your array: (1-10)"))
     for x in range(n):
         element=input("Please enter element:")
         array.append(element)
+    return array
 
-def printArr():
+def printArr(array):
     print("The elements in the array are:")
     for x in array:
         print("[", x,"]")
 
-inputArr()
-printArr()
+array=inputArr()
+printArr(array)
 
-def isOrdered():
+def isOrdered(array):
     first=array[0]
     order=True
     for x in array:
@@ -68,7 +68,7 @@ def isOrdered():
     else:
         print("The elements are not ordered")
 
-isOrdered()
+isOrdered(array)
 ```
 
 - [x] detail each and every step
