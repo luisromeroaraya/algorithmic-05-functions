@@ -1,4 +1,4 @@
-# Functions
+# [Functions](https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/1.The-Field/7.Algorithmic/05-functions.adoc)
 * Type of challenge: **learning**
 * Duration: **30 min**
 * Team challenge: **solo**
