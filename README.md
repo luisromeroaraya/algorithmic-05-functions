@@ -28,8 +28,8 @@ output(square(5))// prints "25"
 *I will be using [Python3](https://repl.it/languages/python3) to write and test the algorithms*
 
 Instructions
--[ ] translate five previous exercises into modular functions
--[ ] detail each and every step
+- [ ] translate five previous exercises into modular functions
+- [ ] detail each and every step
 
 ## Resources
 * [conventions](https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/1.The-Field/7.Algorithmic/conventions.adoc)
