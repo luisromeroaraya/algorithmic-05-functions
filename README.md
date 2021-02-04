@@ -28,8 +28,50 @@ output(square(5))// prints "25"
 *I will be using [Python3](https://repl.it/languages/python3) to write and test the algorithms*
 
 Instructions
-- [ ] translate five previous exercises into modular functions
-- [ ] detail each and every step
+- [x] translate five previous exercises into modular functions
+```
+def inputNum():
+    global n
+    n=int(input("Enter your number:"))
+
+def printNum():
+        print("Your number is:", n)
+
+inputNum()
+printNum()
+
+def inputArr():
+    global array
+    array=[]
+    n=int(input("Please write the number of elements you want for your array: (1-10)"))
+    for x in range(n):
+        element=input("Please enter element:")
+        array.append(element)
+
+def printArr():
+    print("The elements in the array are:")
+    for x in array:
+        print("[", x,"]")
+
+inputArr()
+printArr()
+
+def isOrdered():
+    first=array[0]
+    order=True
+    for x in array:
+        if x < first:
+            order=False
+        first=x
+    if order:
+        print("The elements are ordered")
+    else:
+        print("The elements are not ordered")
+
+isOrdered()
+```
+
+- [x] detail each and every step
 
 ## Resources
 * [conventions](https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/1.The-Field/7.Algorithmic/conventions.adoc)
